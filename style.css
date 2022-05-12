@@ -1,0 +1,31 @@
+body {
+    background-color:blanchedalmond;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align:center;    
+}
+.city {
+    display: flex;
+}
+
+.b_g {
+   flex: auto 
+}
+
+.r_b {
+    flex: auto 
+}
+
+.e_s_g {
+    flex: auto 
+}
+
+div2 {
+    
+}
