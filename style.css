@@ -1,3 +1,15 @@
+.Homepage1 {
+    padding: 0.5em;
+    margin: 20px;
+    background-color:azure;
+}
+
+.Homepage2 {
+    padding: 0.5em;
+    margin: 20px;
+    background-color:azure;
+}
+
 body {
     background-color:blanchedalmond;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -5,27 +17,55 @@ body {
 
 h1 {
     text-align: center;
+    padding: 1em;
 }
 
-h2 {
-    text-align:center;    
+.description {
+    display:flex;
 }
-.city {
+
+.introduction {
+    flex: 1;
+    padding: 0.5em;
+    margin: 1px;
+    display: block;
+    width: 60%;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.historical_places {
     display: flex;
 }
 
+.city {
+ display: flex;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: normal;
+}
+
 .b_g {
-   flex: auto 
+    flex: auto; 
 }
 
 .r_b {
-    flex: auto 
+    flex: auto; 
 }
 
 .e_s_g {
-    flex: auto 
+    flex: auto; 
 }
 
-div2 {
-    
-}
