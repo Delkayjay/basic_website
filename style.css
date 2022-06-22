@@ -48,14 +48,16 @@ td {
     display: flex;
 }
 
-.city {
- display: flex;
+@media (min-width: 720px) {
+    .city {
+        display: flex;
+       }
 }
 
-.clearfix {
+/* .clearfix {
     overflow: auto;
     zoom: normal;
-}
+}  */
 
 .b_g {
     flex: auto; 
@@ -68,4 +70,3 @@ td {
 .e_s_g {
     flex: auto; 
 }
-
